@@ -5,55 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icon.ico">
     <title>RG Studio Web</title>
 </head>
 <body>
     <header class="header">
-        <h1 class="header_nav_h1">RG Studio Web</h1>
-        <ul class="header_nav_ul">
-                <nav class="header_nav">
-                <li class="header_nav_ul_li"><a href="#inicio" class="header_nav_ul_li_a">Inicio</a></li>
-                <li class="header_nav_ul_li"><a href="#proyectos" class="header_nav_ul_li_a">Proyectos</a></li>
-                <li class="header_nav_ul_li"><a href="#contactos" class="header_nav_ul_li_a">Contactos</a></li>
+        <a class="header_title" href="#">RG Studio Web</a>
+            <ul class="header_list">
+                <nav class="header-list_nav">
+                    <li class="list-nav_link"><a href="#home" class="nav-link_name">Inicio</a></li>
+                    <li class="list-nav_link"><a href="#proyect" class="nav-link_name">Proyectos</a></li>
+                    <li class="list-nav_link"><a href="#contact" class="nav-link_name">Contactos</a></li>
+                </nav>
             </ul>
-        </nav>
     </header>
-
-    <div id="inicio" class="div_one">
-        <h2 class="title_div">Inicio</h2>
-        <div class="inicio_div">
-            <img src="img/rg_studio.png" class="inicio_div_img">
-            <h2 class="inicio_div_h2">COMPAÑIA DE DESARROLLO INDEPENDIENTE</h2>
-            <p class="inicio_div_p">Esta se formo con el propósito de compartir con ustedes todos los proyectos que cree para que asi como yo les enseño mis metas a cumplir, todos puedan ver y aprender un poco de todo lo que yo haga</p>
-            <div class="proyectos_div_more"><a href="#" class="proyectos_div_more_a">Ver Mas</a></div>
-
+    <div class="flex-container">
+        <div id="home" class="flex-item margintop">
+            <h2 class="flex-item_title">Inicio</h2>
+            <div class="home-img"><img src="img/rgstudio.png"></div>
+            <div class="company-title"><h2>COMPAÑIA DE DESAROLLO INDEPENDIENTE</h2></div>
+            <div class="description-title"><p>Esta se formo con el propósito de compartir con ustedes todos los proyectos que cree para que asi como yo les enseño mis metas a cumplir, todos puedan ver y aprender un poco de todo lo que yo haga</p></div>
         </div>
-
-    </div>
-    <div id="proyectos" class="div_two">
-        <h2 class="title_div">Proyectos</h2>
-        <div class="proyectos_div">
-            <div class="proyectos_div_div">
+        <div id="proyect" class="flex-item">
+            <h2 class="flex-item_title">Proyectos</h2>
+            <div class="flex-proyect">
+                <div class="proyect-item"></div>
+                <div class="proyect-item"></div>
+                <div class="proyect-item"></div>
             </div>
-            <div class="proyectos_div_div">
-            </div>
-            <div class="proyectos_div_div">
-            </div>
-            <div class="proyectos_div_more"><a href="#" class="proyectos_div_more_a">Ver Mas</a></div>
         </div>
-    </div>
-    <div id="contactos" class="div_three">
-        <h2 class="title_div">Contactos</h2>
-        <div class="contactos_div">
-            <a class="contactos_div_a" href="#">Twitter</a>
-            <a class="contactos_div_a" href="#">Itch io</a>
-            <a class="contactos_div_a" href="#">Github</a>
+        <div id="contact" class="flex-item">
+            <h2 class="flex-item_title">Contactos</h2>
+            <div class="contact-container">
+                <div class="contact-item"><a class="contact-link" href="#">Twitter</a></div>
+                <div class="contact-item"><a class="contact-link" href="#">Itch Io</a></div>
+                <div class="contact-item"><a class="contact-link" href="#">Github</a></div>
+            </div>
         </div>
+        <footer class="footer">
+            <p>RG Studio</p>
+        </footer>
     </div>
 
-    <footer class="footer">
-        RG Studio <br>
-        <a href="">Copyright</a>
-	</footer>
 </body>
 </html>
